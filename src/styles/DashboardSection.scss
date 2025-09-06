@@ -1,0 +1,33 @@
+.dashboard {
+  padding: 5rem 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, #00c853, #0091ea);
+  color: white;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+  }
+
+  .view-dashboard {
+    background: white;
+    color: #00c853;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+
+    &:hover {
+      background: #f2f2f2;
+    }
+  }
+}

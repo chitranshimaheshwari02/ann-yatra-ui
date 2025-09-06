@@ -1,0 +1,49 @@
+.how-it-works {
+  padding: 5rem 2rem;
+  text-align: center;
+  background: #ffffff;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+
+  .steps {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+
+    .step {
+      background: #f4f8ff;
+      border: 2px solid #00c853;
+      border-radius: 12px;
+      padding: 2rem;
+      max-width: 250px;
+      text-align: center;
+      transition: transform 0.3s;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      span {
+        display: inline-block;
+        background: #00c853;
+        color: white;
+        font-weight: bold;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 0.95rem;
+        color: #444;
+      }
+    }
+  }
+}

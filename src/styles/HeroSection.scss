@@ -1,0 +1,141 @@
+.hero {
+  background: linear-gradient(to right, rgba(0, 128, 0, 0.8), rgba(0, 128, 255, 0.8));
+            // url("../public/bg-farm.jpg") center/cover no-repeat;
+
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background: transparent;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 1.2rem;
+
+      img {
+        width: 35px;
+        margin-right: 10px;
+      }
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+
+      li {
+        cursor: pointer;
+        font-size: 1rem;
+        transition: color 0.3s;
+
+        &:hover {
+          color: #ffd700;
+        }
+      }
+    }
+
+    .auth-buttons {
+      display: flex;
+      gap: 1rem;
+
+      .sign-in {
+        background: transparent;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 1rem;
+      }
+
+      .get-started {
+        background: #00c853;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: bold;
+        color: white;
+      }
+    }
+  }
+
+  .hero-content {
+    text-align: center;
+    margin-top: 5rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .hackathon {
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      opacity: 0.9;
+    }
+
+    h1 {
+      font-size: 3.2rem;
+      line-height: 1.3;
+      margin-bottom: 1.5rem;
+      font-weight: bold;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+    }
+
+    .cta-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+
+      .primary {
+        background: #00c853;
+        border: none;
+        padding: 0.8rem 1.5rem;
+        border-radius: 6px;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+      }
+
+      .secondary {
+        background: transparent;
+        border: 2px solid white;
+        padding: 0.8rem 1.5rem;
+        border-radius: 6px;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+      }
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+
+      div {
+        text-align: center;
+
+        img {
+          width: 40px;
+          margin-bottom: 0.5rem;
+        }
+
+        p {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
