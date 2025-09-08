@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ann-yatra/static/css/main.3620053c.css",
+    "main.js": "/ann-yatra/static/js/main.f73d2ab0.js",
+    "static/js/488.4b631e6b.chunk.js": "/ann-yatra/static/js/488.4b631e6b.chunk.js",
+    "index.html": "/ann-yatra/index.html",
+    "main.3620053c.css.map": "/ann-yatra/static/css/main.3620053c.css.map",
+    "main.f73d2ab0.js.map": "/ann-yatra/static/js/main.f73d2ab0.js.map",
+    "488.4b631e6b.chunk.js.map": "/ann-yatra/static/js/488.4b631e6b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3620053c.css",
+    "static/js/main.f73d2ab0.js"
+  ]
+}
