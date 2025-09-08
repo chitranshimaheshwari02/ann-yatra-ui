@@ -1,4 +1,8 @@
 import React from "react";
+import "../styles/Navbar.scss";
+import "../styles/HeroSection.scss";
+import "../styles/DashboardSection.scss";     
+
 // import bgFarm from "../public/bg-farm.jpg";
 
 const HeroSection = () => {
@@ -8,7 +12,7 @@ const HeroSection = () => {
         <div className="logo">
           {/* <img src="/logo.png" alt="Logo" /> */}
           {/* <span>अन्नYatra</span> */}
-        </div>
+        </div> 
         <ul className="nav-links">
           {/* <li>Features</li> */}
           {/* <li>How it Works</li> */}
