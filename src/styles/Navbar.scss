@@ -1,84 +1,15 @@
-// .navbar {
-//   display: flex;
-//   justify-content: space-between;  
-//   align-items: center;
-//   padding: 1rem 2rem;
-//   background: #ffffff; 
-//   position: sticky;
-//   top: 0;
-//   z-index: 100;
-// }
-
-// .navbar-logo {
-//   display: flex;
-//   align-items: center;
-//   gap: 8px;
-
-//   img {
-//     height: 32px;
-//     width: auto;
-//   }
-
-//   span {
-//     font-size: 1.2rem;
-//     font-weight: bold;
-//     color: #000;
-//   }
-// }
-
-// .navbar-links {
-//   display: flex;
-//   gap: 2rem;   
-//   list-style: none;
-
-//   li a {
-//     color: #000;
-//     text-decoration: none;
-//     font-weight: 500;
-
-//     &:hover {
-//       color: #00c853;
-//     }
-//   }
-// }
-
-// .navbar-actions {
-//   display: flex;
-//   align-items: center;
-//   gap: 1rem;
-
-//   button {
-//     padding: 0.4rem 1rem;
-//     border: none;
-//     border-radius: 6px;
-//     font-weight: 500;
-//     cursor: pointer;
-//   }
-
-//   .sign-in {
-//     background: transparent;
-//     color: #000;
-//   }
-
-//   .get-started {
-//     background: #00c853;
-//     color: white;
-//   }
-// }
-
-
 .navbar {
   display: flex;
-  justify-content: space-between; /* logo left, links center, buttons right */
+  justify-content: space-between; 
   align-items: center;
   padding: 1rem 2rem;
   background: #fff;
 }
 
-/* Navigation links container */
+
 .nav-links {
   display: flex;
-  gap: 2rem; /* space between links */
+  gap: 2rem; 
   list-style: none;
   margin: 0;
   padding: 0;
@@ -91,11 +22,10 @@
   transition: color 0.3s ease;
 
   &:hover {
-    color: #007bff; /* blue on hover */
+    color: #007bff; 
   }
 }
 
-/* Right-side buttons */
 .nav-buttons {
   display: flex;
   gap: 1rem;

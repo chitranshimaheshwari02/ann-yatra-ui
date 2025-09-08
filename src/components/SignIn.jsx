@@ -8,7 +8,7 @@ const SignIn = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Login attempt:", { email, password });
-    // Here you can add authentication logic or API call
+
   };
 
   return (

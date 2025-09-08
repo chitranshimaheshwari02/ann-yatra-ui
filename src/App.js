@@ -53,7 +53,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        {/* Landing Page - shows everything */}
+
         <Route
           path="/"
           element={
@@ -67,7 +67,7 @@ function App() {
           }
         />
 
-        {/* Separate pages */}
+
         <Route path="/features" element={<FeaturesSection />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
         <Route path="/stakeholders" element={<Stakeholders />} />
